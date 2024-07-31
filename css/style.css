@@ -2,7 +2,7 @@
 :root {
     --main-color: #00d7c5;
     --secondary-color: #2c4755;
-    --text-color: #0a0553;
+    --text-color: #777;
     --background-color: #f6f6f6;
     --section-padding: 60px;
     --section-margin: 100px;
@@ -299,7 +299,7 @@ body {
 
 .features .container .feat p {
   line-height: 1.8;
-  color: #777;
+  color: var(--text-color);
   font-size: 17px;
 }
 /* End Features Section */
@@ -334,7 +334,7 @@ body {
 }
 
 .services .services-content .service .text p {
-  color: #777;
+  color: var(--text-color);
   font-weight: 300;
   line-height: 1.6;
 }
@@ -404,7 +404,7 @@ body {
 }
 
 .portfolio .portfolio-content .card .info {
-  color: #777;
+  color: var(--text-color);
   line-height: 1.6;
   margin-bottom: 0;
 }
@@ -496,7 +496,7 @@ body {
 }
 
 .about .about-content .text p:last-of-type{
-  color: #777;
+  color: var(--text-color);
 }
 
 /* End About Section */
